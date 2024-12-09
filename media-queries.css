@@ -1,4 +1,5 @@
 
+/* Media Query para telas pequenas (até 768px) */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -40,14 +41,13 @@
     }
 
     /* Ajustar as imagens para telas pequenas */
-    .imagens img {
+    .right-section img {
         width: 100%;
-        max-width: 100%; /* Garante que as imagens se ajustem corretamente */
-        margin-bottom: 10px;
+        height: auto; /* Garante que as imagens não fiquem esticadas */
     }
 }
 
-
+/* Media Query para telas médias (769px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
     main {
         padding: 30px;
@@ -71,7 +71,7 @@
     }
 }
 
-
+/* Media Query para telas grandes (≥ 1025px) */
 @media (min-width: 1025px) {
     main {
         padding: 40px;
@@ -89,6 +89,11 @@
     header .logo h1 {
         font-size: 24px;
     }
+
+    header nav a {
+        font-size: 15px;
+    }
+}
 
     header nav a {
         font-size: 15px;
