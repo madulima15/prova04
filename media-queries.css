@@ -31,6 +31,12 @@
     form button {
         font-size: 14px;
     }
+    body.sobre p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-rigth:20px; 
+    }
 }
 
 /* Media Query para telas médias (769px - 1024px) */
