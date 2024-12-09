@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #c9a5d7c4;
 }
 
@@ -23,7 +23,7 @@ header nav a {
     color: #f2e2b8;
     text-decoration: none;
     margin-left: 15px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 header nav a:hover {
@@ -35,11 +35,14 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    gap: 20px;
+    gap: 40px;
+    flex-wrap: wrap; /* Permite que as seções se movam para a linha inferior em telas menores */
 }
 
 .left-section {
     max-width: 50%;
+    flex: 1;
+    margin-right: 20px;
 }
 
 .left-section h1 {
@@ -89,10 +92,12 @@ form button:hover {
 .right-section {
     max-width: 40%;
     position: relative;
+    flex: 1;
 }
 
 .right-section img {
     width: 100%;
+    height: auto; /* Garante que a imagem não estique */
     border-radius: 5px;
 }
 
@@ -101,6 +106,7 @@ main p {
     color: #ffffff;
     font-size: 14px;
 }
+
 
 body.sobre {
     background-color: #a5d4d7;
