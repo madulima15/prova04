@@ -1,4 +1,4 @@
-/* Media Query para telas pequenas (≤ 768px) */
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -23,7 +23,7 @@
 
     .left-section,
     .right-section {
-        min-width: 100%; /* Ocupa a largura total */
+        width: 100%; /* Ocupa a largura total */
     }
 
     form input[type="text"],
@@ -31,15 +31,23 @@
     form button {
         font-size: 14px;
     }
+
     body.sobre p {
-    color: #ffffff;
-    font-size: 18px;
-    margin-left: 20px;
-    margin-rigth:20px; 
+        color: #ffffff;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px; /* Corrigido */
+    }
+
+    /* Ajustar as imagens para telas pequenas */
+    .imagens img {
+        width: 100%;
+        max-width: 100%; /* Garante que as imagens se ajustem corretamente */
+        margin-bottom: 10px;
     }
 }
 
-/* Media Query para telas médias (769px - 1024px) */
+
 @media (min-width: 769px) and (max-width: 1024px) {
     main {
         padding: 30px;
@@ -63,7 +71,7 @@
     }
 }
 
-/* Media Query para telas grandes (≥ 1025px) */
+
 @media (min-width: 1025px) {
     main {
         padding: 40px;
