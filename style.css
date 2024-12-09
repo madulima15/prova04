@@ -40,14 +40,15 @@ main {
 }
 
 .left-section {
-    max-width: 50%;
-    flex: 1;
+    max-width: 50%; /* Ajustando o máximo para 50% */
+    flex: 1; /* Permite que ela ocupe o espaço restante */
     margin-right: 20px;
 }
 
 .left-section h1 {
     font-size: 32px;
     color: #ffffff;
+    margin-bottom: 10px;
 }
 
 .left-section h2 {
@@ -59,6 +60,7 @@ main {
 .left-section p {
     margin-top: 20px;
     line-height: 1.6;
+    font-size: 18px; /* Aumentando o tamanho da fonte para melhorar a leitura */
 }
 
 form {
@@ -90,14 +92,14 @@ form button:hover {
 }
 
 .right-section {
-    max-width: 40%;
-    position: relative;
+    max-width: 50%; /* Ajustando a imagem para ocupar mais espaço */
     flex: 1;
+    position: relative;
 }
 
 .right-section img {
-    width: 100%;
-    height: auto; /* Garante que a imagem não estique */
+    width: 100%;  /* Garantindo que a imagem ocupe toda a largura da seção */
+    height: auto;  /* Manter a proporção da imagem */
     border-radius: 5px;
 }
 
@@ -106,6 +108,7 @@ main p {
     color: #ffffff;
     font-size: 14px;
 }
+
 
 
 body.sobre {
