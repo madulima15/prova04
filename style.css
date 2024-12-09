@@ -118,6 +118,8 @@ body.sobre h1 {
 body.sobre p {
     color: #ffffff;
     font-size: 18px;
+    margin-left: 20px;
+    margin-rigth:20px;
     
 }
 
