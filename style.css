@@ -4,7 +4,6 @@ body {
     padding: 0;
     background-color: #a5d4d7;
     color: #ffffff;
-    
 }
 
 header {
@@ -18,7 +17,6 @@ header {
 header .logo h1 {
     font-size: 24px;
     color: #ffffff;
-    
 }
 
 header nav a {
@@ -98,29 +96,27 @@ form button:hover {
     border-radius: 5px;
 }
 
-main p{
+main p {
     text-align: center;
     color: #ffffff;
     font-size: 14px;
 }
 
 body.sobre {
-    background-color:  #a5d4d7;
+    background-color: #a5d4d7;
 }
 
 body.sobre h1 {
     color: #ffffff;
     text-align: center;
     font-size: 16px;
-
 }
 
 body.sobre p {
     color: #ffffff;
     font-size: 18px;
     margin-left: 20px;
-    margin-rigth:20px;
-    
+    margin-right: 20px;
 }
 
 body.sobre .img {
@@ -128,23 +124,14 @@ body.sobre .img {
     width: 20px;
     border-radius: 50px;
     margin-top: 10px;
-    justify-content:baseline;
+    justify-content: baseline;
 }
-body.sobre .container{
+
+body.sobre .container {
     margin-top: 30px;
     text-align: center;
-
-}
-body.header nav a {
-    color: #f2e2b8;
-    text-decoration: none;
-    margin-left: 15px;
-    font-size: 14px;
 }
 
-body.sobre header nav a:hover {
-    text-decoration: underline;
-}
 body.cardapio body {
     text-align: left;
     font-family: Arial, sans-serif;
@@ -173,10 +160,8 @@ body.cardapio h1 {
 
 body.cardapio .left-section .menu-item {
     text-align: left;
-    margin:  0;
+    margin: 0;
     padding: 0;
-    
-    
 }
 
 body.cardapio .left-section .menu-item h2 {
@@ -199,23 +184,11 @@ body.cardapio .left-section .price {
     font-weight: 300;
     color: black;
 }
-body .header nav a {
-    color: #f2e2b8;
-    text-decoration: none;
-    margin-left: 15px;
-    font-size: 14px;
-}
 
-body.header nav a:hover {
-    text-decoration: underline;
-}
-body.cardapio .left-section img{
+body.cardapio .left-section img {
     text-align: left;
     display: block;
-    margin : 0;
+    margin: 0;
     width: 100%;
     max-width: 300px;
-
-
 }
-
